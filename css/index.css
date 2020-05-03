@@ -1,6 +1,6 @@
 body{
     font-size: 30px;
-    background-image:url("images/image5.jpg");
+    background-image: url('images/image5.jpg');
    background-repeat:no-repeat;
    background-attachment: fixed;
    background-size: 100% 100%;
