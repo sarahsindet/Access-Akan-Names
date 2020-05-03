@@ -1,0 +1,18 @@
+.container{
+  background-image: url("../images/image3.jpg"); 
+  background-repeat:no-repeat;
+  background-size: 100%;
+  padding-bottom: 8%;
+  width: auto;
+  
+
+}
+#flag{
+  border-radius: 50%;
+  width: 150px;
+  float:left;
+  background-color: ghostwhite;
+}
+p{
+  color: white;
+}
