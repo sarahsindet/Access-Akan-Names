@@ -9,6 +9,7 @@ var MM = parseInt(month);
 var year = document.getElementById("year").value;
 var YY = parseInt(year.toString().slice(2, 4));
 //  var CC=(YY-1)/100+1;
-var cc = Math.ceil(year / 100)
+var CC = Math.ceil(year / 100)
 /* the formula */
-var result = parseInt(((cc / 4) - 2 * cc - 1) + ((5 * yy / 4)) + ((26 * (mm + 1) / 10)) + dd) % 7;
+var process = parseInt ( ( (CC/4) -2*CC-1) + ((5*YY/4) ) + ((26*(MM+1)/10)) + DD ) % 7; var maleNames = ["Kwasi", "Kwadwo", "Kwabena", "Kwaku", "Yaw", "Kofi", "Kwame"];
+var femaleNames = ["Akosua", " Adwoa", "Abenaa", "Akua", "Yaa", "Afua", "Ama"];
