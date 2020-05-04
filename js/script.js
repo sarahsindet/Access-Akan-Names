@@ -10,7 +10,7 @@ var yy = parseInt(year.toString().slice(2, 4));
 //  var CC=(YY-1)/100+1;
 var cc = Math.ceil(year / 100)
 /* the formula */
-var process =  parseInt(((cc / 4) - 2 * cc - 1) + ((5 * yy / 4)) + ((26 * (mm + 1) / 10)) + dd) % 7;
+var process = parseInt(((cc / 4) - 2 * cc - 1) + ((5 * yy / 4)) + ((26 * (mm + 1) / 10)) + dd) % 7;
 var maleNames = ["Kwasi", "Kwadwo", "Kwabena", "Kwaku", "Yaw", "Kofi", "Kwame"];
 var femaleNames = ["Akosua", " Adwoa", "Abenaa", "Akua", "Yaa", "Afua", "Ama"]
 if (document.getElementById("gender").checked) {
@@ -31,7 +31,7 @@ if (document.getElementById("gender").checked) {
   else if (Math.round(process) == 0 && gender === 'male') {
     document.getElementById("endresult").innerHTML = ("You were born on Sunday, your Akan Name is " + maleNames[0]);
   }
-  else if (Math.round(process) == 1 || Math.round(Process) == -1 && gender === 'male') {
+  else if (Math.round(process) == 1 || Math.round(process) == -1 && gender === 'male') {
     document.getElementById("endresult").innerHTML = ("You were born on Monday, your Akan Name is " + maleNames[1]);
   }
   else if (Math.round(process) == 2 || Math.round(process) == -2 && gender === 'male') {

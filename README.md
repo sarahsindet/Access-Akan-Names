@@ -38,10 +38,10 @@ Day of birth- The day of the week that the user was born eg Tuesday
 Akan name- The corresponding Akan name for the user eg.Kofi
 
 ## Sample
-![image](image1.jpg)
+![image/(image1.jpg)
 
 ## Support and contact details
- Incase you come across errors, have questions, ideas ,concerns, or want to contribute to the page, feel free to reach me at :cynthiaobu940@gmail.com
+ Incase you come across errors, have questions, ideas ,concerns, or want to contribute to the page, feel free to reach me at :sarahsindet@gmail.com
  
  ### License
   MIT - <https://opensource.org/licenses/MIT>
