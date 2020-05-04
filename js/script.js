@@ -32,47 +32,47 @@ var day = document.getElementById("day").value;
   else if (mm == 2 && dd > 29) {
     alert("invalid day of month")
   }
-else if (Math.round(result) == 0 && gender === 'male') {
+else if (Math.floor(result) == 0 && gender === 'male') {
     document.getElementById("final").innerHTML = ("You were born on" + days[0] + "your Akan Name is " + maleNames[0]);
   }
-  else if (Math.round(result) == 1 || Math.round(result) == -1 && gender === 'male') {
+  else if (Math.floor(result) == 1 || Math.floor(result) == -1 && gender === 'male') {
     document.getElementById("final").innerHTML = ("You were born on" + days[1] + "your Akan Name is " + maleNames[1]);
   }
-  else if (Math.round(result) == 2 || Math.round(result) == -2 && gender === 'male') {
+  else if (Math.floor(result) == 2 || Math.floor(result) == -2 && gender === 'male') {
     document.getElementById("final").innerHTML = ("You were born on" + days[2] +"your Akan Name is " + maleNames[2]);
   }
-  else if (Math.round(result) == 3 || Math.round(result) == -3 && gender === 'male') {
+  else if (Math.floor(result) == 3 || Math.floor(result) == -3 && gender === 'male') {
     document.getElementById("final").innerHTML = ("You were born on" + days[3] +"your Akan Name is " + maleNames[3]);
   }
-  else if (Math.round(result) == 4 || Math.round(result) == -4 && gender === 'male') {
+  else if (Math.floor(result) == 4 || Math.floor(result) == -4 && gender === 'male') {
     document.getElementById("final").innerHTML = ("You were born on" + days[4] +"your Akan Name is " + maleNames[4]);
   }
-  else if (Math.round(result) == 5 || Math.round(result) == -5 && gender === 'male') {
-    document.getElementById("final").innerHTML = ("You were born on" + days[5] +"your Akan Name is " + maleNames[5]);
+  else if (Math.floor(result) == 5 || Math.floor(result) == -5 && gender === 'male') {
+    document.getElementById("final").innerHTML = ("You were born on" + days[5] + "your Akan Name is " + maleNames[5]);
     }
-  else if (Math.round(result) == 6 || Math.round(result) == -6 && gender === 'male') {
+  else if (Math.floor(result) == 6 || Math.floor(result) == -6 && gender === 'male') {
     document.getElementById("final").innerHTML = ("You were born on"+days[6] + "your Akan Name is " + maleNames[6]);
   }
-  else if (Math.round(result) == 0 && gender === 'female') {
+  else if (Math.floor(result) == 0 && gender === 'female') {
     document.getElementById("final").innerHTML = ("You were born on" + days[0] + "your Akan Name is " + maleNames[0]);
   }
-  else if (Math.round(result) == 1 || Math.round(result) == -1 && gender === 'female') {
-    document.getElementById("final").innerHTML = ("You were born on" + days[0] +"your Akan Name is " + maleNames[0]);
+  else if (Math.floor(result) == 1 || Math.floor(result) == -1 && gender === 'female') {
+    document.getElementById("final").innerHTML = ("You were born on" + days[0] + "your Akan Name is " + maleNames[0]);
   }
-  else if (Math.round(result) == 2 || Math.round(result) == -2 && gender === 'female') {
-    document.getElementById("final").innerHTML = ("You were born on" + days[2] +"your Akan Name is " + maleNames[2]);
+  else if (Math.floor(result) == 2 || Math.floor(result) == -2 && gender === 'female') {
+    document.getElementById("final").innerHTML = ("You were born on" + days[2] + "your Akan Name is " + maleNames[2]);
   }
-  else if (Math.round(result) == 3 || Math.round(result) == -3 && gender === 'female') {
-    document.getElementById("final").innerHTML = ("You were born on" + days[3] +"your Akan Name is " + maleNames[3]);
+  else if (Math.floor(result) == 3 || Math.floor(result) == -3 && gender === 'female') {
+    document.getElementById("final").innerHTML = ("You were born on" + days[3] + "your Akan Name is " + maleNames[3]);
   }
-  else if (Math.round(result) == 4 || Math.round(result) == -4 && gender === 'female') {
-    document.getElementById("final").innerHTML = ("You were born on" + days[4] +"your Akan Name is " + maleNames[4]);
+  else if (Math.floor(result) == 4 || Math.floor(result) == -4 && gender === 'female') {
+    document.getElementById("final").innerHTML = ("You were born on" + days[4] + "your Akan Name is " + maleNames[4]);
   }
-  else if (Math.round(result) == 5 || Math.round(result) == -5 && gender === 'female') {
-    document.getElementById("final").innerHTML = ("You were born on" + days[5] +"your Akan Name is " + maleNames[5]);
+  else if (Math.floor(result) == 5 || Math.floor(result) == -5 && gender === 'female') {
+    document.getElementById("final").innerHTML = ("You were born on" + days[5] + "your Akan Name is " + maleNames[5]);
   }
-  else if (Math.round(result) == 6 || Math.round(result) == -6 && gender === 'female') {
-    document.getElementById("final").innerHTML = ("You were born on" + days[6] +"your Akan Name is " + maleNames[6]);
+  else if (Math.floor(result) == 6 || Math.floor(result) == -6 && gender === 'female') {
+    document.getElementById("final").innerHTML = ("You were born on" + days[6] + "your Akan Name is " + maleNames[6]);
   }
   else {
     alert("please input all data");
